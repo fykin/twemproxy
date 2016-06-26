@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="conf">
+      <UniqueIdentifier>{e938b861-79aa-4e15-8a72-f9c95e3e7aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{3eec8cd5-929c-4c8b-ae5e-01eae064deac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_memcache">
+      <UniqueIdentifier>{be1ae492-bc90-4f30-a32a-9b15247e6320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_redis">
+      <UniqueIdentifier>{6bab3f92-0df8-4e37-bec5-0bb0328eb5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_system">
+      <UniqueIdentifier>{e2c0b3d4-4dbb-4502-b95c-6cb13d6c9e72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test_system\__init__.py">
+      <Filter>test_system</Filter>
+    </None>
+    <None Include="test_system\test_reload.py">
+      <Filter>test_system</Filter>
+    </None>
+    <None Include="test_redis\__init__.py">
+      <Filter>test_redis</Filter>
+    </None>
+    <None Include="test_redis\common.py">
+      <Filter>test_redis</Filter>
+    </None>
+    <None Include="test_redis\test_auth.py">
+      <Filter>test_redis</Filter>
+    </None>
+    <None Include="test_redis\test_basic.py">
+      <Filter>test_redis</Filter>
+    </None>
+    <None Include="test_redis\test_commands.py">
+      <Filter>test_redis</Filter>
+    </None>
+    <None Include="test_redis\test_mget_large_binary.py">
+      <Filter>test_redis</Filter>
+    </None>
+    <None Include="test_redis\test_mget_mset.py">
+      <Filter>test_redis</Filter>
+    </None>
+    <None Include="test_redis\test_pipeline.py">
+      <Filter>test_redis</Filter>
+    </None>
+    <None Include="test_redis\test_protocol.py">
+      <Filter>test_redis</Filter>
+    </None>
+    <None Include="lib\server_modules.py">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="lib\utils.py">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="conf\conf.py">
+      <Filter>conf</Filter>
+    </None>
+    <None Include="conf\control.sh">
+      <Filter>conf</Filter>
+    </None>
+    <None Include="conf\redis.conf">
+      <Filter>conf</Filter>
+    </None>
+    <None Include="test_memcache\__init__.py">
+      <Filter>test_memcache</Filter>
+    </None>
+    <None Include="test_memcache\test_gets.py">
+      <Filter>test_memcache</Filter>
+    </None>
+  </ItemGroup>
+</Project>

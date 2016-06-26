@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="event">
+      <UniqueIdentifier>{ae6df6e0-d330-4085-885a-2194b9e7ccac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{2e32a0ea-d823-411c-b680-1deff1261f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashkit">
+      <UniqueIdentifier>{2b4f1593-4393-4958-8795-8f9a1a72a422}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nc_server.c" />
+    <ClCompile Include="nc_signal.c" />
+    <ClCompile Include="nc_stats.c" />
+    <ClCompile Include="nc_string.c" />
+    <ClCompile Include="nc_util.c" />
+    <ClCompile Include="nc.c" />
+    <ClCompile Include="nc_array.c" />
+    <ClCompile Include="nc_client.c" />
+    <ClCompile Include="nc_conf.c" />
+    <ClCompile Include="nc_connection.c" />
+    <ClCompile Include="nc_core.c" />
+    <ClCompile Include="nc_log.c" />
+    <ClCompile Include="nc_mbuf.c" />
+    <ClCompile Include="nc_message.c" />
+    <ClCompile Include="nc_proxy.c" />
+    <ClCompile Include="nc_rbtree.c" />
+    <ClCompile Include="nc_request.c" />
+    <ClCompile Include="nc_response.c" />
+    <ClCompile Include="proto\nc_memcache.c">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\nc_redis.c">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="event\nc_epoll.c">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="event\nc_evport.c">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="event\nc_kqueue.c">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_crc16.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_crc32.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_fnv.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_hsieh.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_jenkins.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_ketama.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_md5.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_modula.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_murmur.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_one_at_a_time.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkit\nc_random.c">
+      <Filter>hashkit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nc_server.h" />
+    <ClInclude Include="nc_signal.h" />
+    <ClInclude Include="nc_stats.h" />
+    <ClInclude Include="nc_string.h" />
+    <ClInclude Include="nc_util.h" />
+    <ClInclude Include="nc_array.h" />
+    <ClInclude Include="nc_client.h" />
+    <ClInclude Include="nc_conf.h" />
+    <ClInclude Include="nc_connection.h" />
+    <ClInclude Include="nc_core.h" />
+    <ClInclude Include="nc_log.h" />
+    <ClInclude Include="nc_mbuf.h" />
+    <ClInclude Include="nc_message.h" />
+    <ClInclude Include="nc_proxy.h" />
+    <ClInclude Include="nc_queue.h" />
+    <ClInclude Include="nc_rbtree.h" />
+    <ClInclude Include="proto\nc_proto.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="event\nc_event.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="hashkit\nc_hashkit.h">
+      <Filter>hashkit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile.am" />
+    <None Include="proto\Makefile.am">
+      <Filter>proto</Filter>
+    </None>
+    <None Include="event\Makefile.am">
+      <Filter>event</Filter>
+    </None>
+    <None Include="hashkit\Makefile.am">
+      <Filter>hashkit</Filter>
+    </None>
+  </ItemGroup>
+</Project>
